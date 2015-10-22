@@ -1,0 +1,38 @@
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .editor {
+      margin: 0 auto;
+      width: 500px;
+      height: 300px;
+      border: 1px solid #ccc;
+      font: 14px/1.5 Arial, "Microsoft YaHei", sans-serif;
+    }
+
+    .editor .toolbar {
+      height: 40px;
+      background: #eee;
+      font-size: 0;
+    }
+
+    .editor .toolbar .btn {
+      display: inline-block;
+      margin: 6px 5px 0;
+      width: 26px;
+      height: 26px;
+      background: #fff;
+      border: 1px solid #666;
+      font-size: 14px;
+    }
+
+    .editor .toolbar .btn-active {
+      background: #f00;
+    }
+
+    .editor .iframe {
+      width: 500px;
+      height: 260px;
+      border: none;
+    }
