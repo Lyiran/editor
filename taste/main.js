@@ -2,10 +2,13 @@ $(function () {
   var iframe = $('#j-iframe')[0];
   var iframeContent = iframe.contentDocument || iframe.contentWindow.document;
 
+
   iframeContent.designMode = 'on';
   iframeContent.contentEditable = true;
 
+  iframeContent.open();
   iframeContent.write('<html><body></body></html>');
+  iframeContent.close();
 
   iframe.contentWindow.focus();
 
